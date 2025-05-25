@@ -34,14 +34,14 @@ Z-Score Arbitrage is a statistical trading strategy that detects divergence from
 
 ## 🧩 Folder Structure
 Z-Score Arbitrage Monitor/
-├── main.py # Entry point
-├── config.py # Global thresholds and settings
-├── data_feed.py # Market data ingestion
-├── stats_engine.py # Z-score calculator
-├── signal_manager.py # Signal generation logic
-├── alert_system.py # Triggers/alerts
-├── storage.py # Optional local storage for price logs
-├── requirements.txt # Python dependencies
+├── main.py             # Entry point
+├── config.py           # Global thresholds and settings
+├── data_feed.py        # Market data ingestion
+├── stats_engine.py     # Z-score calculator
+├── signal_manager.py   # Signal generation logic
+├── alert_system.py     # Triggers/alerts
+├── storage.py          # Optional local storage for price logs
+├── requirements.txt    # Python dependencies
 
 ---
 
