@@ -33,17 +33,17 @@ Z-Score Arbitrage is a statistical trading strategy that detects divergence from
 ---
 
 ## 🧩 Folder Structure
-Z-Score Arbitrage Monitor/
-├── main.py             # Entry point
-├── config.py           # Global thresholds and settings
-├── data_feed.py        # Market data ingestion
-├── stats_engine.py     # Z-score calculator
-├── signal_manager.py   # Signal generation logic
-├── alert_system.py     # Triggers/alerts
-├── storage.py          # Optional local storage for price logs
-├── requirements.txt    # Python dependencies
+| File / Folder       | Description                               |
+|---------------------|-------------------------------------------|
+| `main.py`           | Entry point of the bot                    |
+| `config.py`         | Global thresholds and strategy settings   |
+| `data_feed.py`      | Market data ingestion from exchanges      |
+| `stats_engine.py`   | Z-score calculator logic                  |
+| `signal_manager.py` | Signal generation based on thresholds     |
+| `alert_system.py`   | Alerts/notifications when signals fire    |
+| `storage.py`        | Local storage for historical price data   |
+| `requirements.txt`  | Python package dependencies               |
 
----
 
 ## 💡 Usage
 
